@@ -13,6 +13,7 @@ public class Health : MonoBehaviour
 
     public void DealDamage(float damage)
     {
+        GetComponent<Animator>().SetTrigger("isDamaged");
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
