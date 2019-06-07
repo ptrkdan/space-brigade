@@ -4,5 +4,7 @@ using UnityEngine;
 
 public class Defender : MonoBehaviour
 {
-    [SerializeField] int creditCost = 50;
+    [SerializeField] int energyCost = 50;
+
+    public int GetEnergyCost() => energyCost;
 }

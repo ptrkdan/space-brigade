@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7752160835780515947}
   - component: {fileID: 6367701178045333786}
   - component: {fileID: 350450405534286872}
+  - component: {fileID: -7435917848540713163}
   m_Layer: 0
   m_Name: Red Laser
   m_TagString: Untagged
@@ -111,3 +112,24 @@ CapsuleCollider2D:
   m_Offset: {x: 7.711343e-11, y: 0.00064687437}
   m_Size: {x: 0.37000015, y: 0.086547844}
   m_Direction: 1
+--- !u!50 &-7435917848540713163
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8187723063035711644}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
