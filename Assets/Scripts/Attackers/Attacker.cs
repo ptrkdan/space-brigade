@@ -7,7 +7,7 @@ public class Attacker : MonoBehaviour
 
     private void Awake()
     {
-        // TODO Inform LevelController of newly spawned attacker
+        FindObjectOfType<LevelController>().AttackerSpawned();
     }
 
     private void Update()
@@ -18,7 +18,7 @@ public class Attacker : MonoBehaviour
 
     private void OnDestroy()
     {
-        // TODO Inform LevelController of attacker defeat
+        FindObjectOfType<LevelController>().AttackerKilled();
     }
 
     public void SetMovementSpeed(float newSpeed)

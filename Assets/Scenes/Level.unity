@@ -717,6 +717,7 @@ MonoBehaviour:
   spawnDelayRange: {x: 8, y: 10}
   attackerPrefabList:
   - {fileID: 2170804846982770611, guid: 3477cc31cb4f59a408d7ea4d18d3c062, type: 3}
+  - {fileID: 4601649118931499311, guid: 10e070628038bf6479b320bb82949f8f, type: 3}
 --- !u!4 &874000425 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 799772417344456487, guid: d813aa60151543541a177cdafb3dec03,
@@ -774,7 +775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7b263adc3e07db4b908fbd027888e85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingEnergy: 100
+  startingEnergy: 1000
 --- !u!222 &875356386
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1773,6 +1774,7 @@ MonoBehaviour:
   spawnDelayRange: {x: 5, y: 10}
   attackerPrefabList:
   - {fileID: 2170804846982770611, guid: 3477cc31cb4f59a408d7ea4d18d3c062, type: 3}
+  - {fileID: 4601649118931499311, guid: 10e070628038bf6479b320bb82949f8f, type: 3}
 --- !u!1 &1486879359
 GameObject:
   m_ObjectHideFlags: 0
@@ -2009,7 +2011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnDelayRange: {x: 8, y: 10}
   attackerPrefabList:
-  - {fileID: 2170804846982770611, guid: 3477cc31cb4f59a408d7ea4d18d3c062, type: 3}
+  - {fileID: 4601649118931499311, guid: 10e070628038bf6479b320bb82949f8f, type: 3}
 --- !u!1 &1801763125
 GameObject:
   m_ObjectHideFlags: 0
@@ -2391,6 +2393,7 @@ MonoBehaviour:
   spawnDelayRange: {x: 5, y: 10}
   attackerPrefabList:
   - {fileID: 2170804846982770611, guid: 3477cc31cb4f59a408d7ea4d18d3c062, type: 3}
+  - {fileID: 4601649118931499311, guid: 10e070628038bf6479b320bb82949f8f, type: 3}
 --- !u!4 &2060107621 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1922900629897126772, guid: 8a7e94891bf31564c99dd2a6a96d006b,

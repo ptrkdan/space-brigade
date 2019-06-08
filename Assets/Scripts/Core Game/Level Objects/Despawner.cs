@@ -4,7 +4,10 @@ public class Despawner : MonoBehaviour
 {
     private void OnTriggerExit2D(Collider2D other)
     {
-        FindObjectOfType<PlayerHealthManager>().ReduceHealth();
+        if (other.gameObject.GetComponent<Attacker>())
+        {
+            FindObjectOfType<PlayerHealthManager>().ReduceHealth();
+        }
         Destroy(other.gameObject);
     }
 }
